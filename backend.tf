@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "tf4-infra-s3"
+    bucket = "tf-infra-s31"
     key = "main"
     region = "us-east-1"
-    dynamodb_table = "tf-infra-dynamodbtable"
+    dynamodb_table = "tf-infra-dynamodbtable1"
   }
 }
